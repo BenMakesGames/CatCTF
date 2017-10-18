@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour {
 
     public float cameraArmAngle = 37.5f;
 
+    public Team Team;
+
     void Start()
     {
         motor = GetComponent<PlayerMotor>();
