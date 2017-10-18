@@ -115,7 +115,7 @@ GameObject:
   - component: {fileID: 153600786006660034}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -587,6 +587,7 @@ MonoBehaviour:
   thrusterForce: 1000
   cameraArm: {fileID: 1407513273133040}
   cameraArmAngle: 37.5
+  Team: 0
 --- !u!114 &114857439778739126
 MonoBehaviour:
   m_ObjectHideFlags: 1
