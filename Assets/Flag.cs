@@ -20,7 +20,7 @@ public class Flag : MonoBehaviour
     {
         if(IsGoingHome)
         {
-
+            Vector3 direction = _original_location - gameObject.transform.position;
         }
         else if(Bearer != null)
         {
