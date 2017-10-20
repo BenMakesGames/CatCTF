@@ -7,6 +7,8 @@ public class PlayerSetupScript : NetworkBehaviour {
 
     public Behaviour[] componentsToDisable;
 
+    public PlayerSpawner PlayerSpawner;
+
     private Camera sceneCamera;
 
     void Start()
@@ -31,5 +33,13 @@ public class PlayerSetupScript : NetworkBehaviour {
     {
         if (sceneCamera != null)
             sceneCamera.gameObject.SetActive(true);
+    }
+
+    private void OnPlayerDisconnected(NetworkPlayer player)
+    {
+        if (gameObject.GetComponent<PlayerController>().Team == Team.Red)
+            PlayerSpawner.RedPlayers--;
+        else
+            PlayerSpawner.BluePlayers--;
     }
 }
