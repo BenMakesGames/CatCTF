@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour {
 
     private PlayerMotor motor;
     public GameObject cameraArm;
+    public Animator animator;
 
     public float cameraArmAngle = 37.5f;
 
@@ -72,6 +73,8 @@ public class PlayerController : MonoBehaviour {
         if (motion.magnitude > 1) motion.Normalize();
 
         motion *= walkSpeed;
+
+        animator.SetFloat("MovementSpeed", motion.magnitude);
 
         motor.Move(motion);
 

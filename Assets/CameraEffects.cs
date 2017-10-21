@@ -84,6 +84,12 @@ public class CameraEffects : MonoBehaviour {
         return output;
     }
 
+    public List<string> TAGS_THAT_DONT_BLOCK_THE_CAMERA = new List<string>
+    {
+        "Does Not Block Camera",
+        "Player",
+    };
+
     private float GetCameraDistance()
     {
         Vector3[] clipPoints = CalculateCameraClipPoints();
@@ -96,7 +102,7 @@ public class CameraEffects : MonoBehaviour {
 
             if (Physics.Raycast(target.transform.position, clipPoint - target.transform.position, out hit))
             {
-                if (hit.collider.gameObject.tag != "Does Not Block Camera" && hit.collider.gameObject.tag != "Player" && hit.distance < distance)
+                if (!TAGS_THAT_DONT_BLOCK_THE_CAMERA.Contains(hit.collider.gameObject.tag) && hit.distance < distance)
                     distance = hit.distance;
             }
         }

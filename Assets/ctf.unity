@@ -6691,6 +6691,9 @@ MonoBehaviour:
   underwaterDensity: 0.1
   target: {fileID: 0}
   sky: {fileID: 0}
+  TAGS_THAT_DONT_BLOCK_THE_CAMERA:
+  - Does Not Block Camera
+  - Player
 --- !u!114 &1180153291
 MonoBehaviour:
   m_ObjectHideFlags: 0
