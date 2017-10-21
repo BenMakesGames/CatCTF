@@ -522,6 +522,7 @@ MonoBehaviour:
   - {fileID: 114635886868763288}
   - {fileID: 81167779966977022}
   - {fileID: 20936781714117720}
+  PlayerSpawner: {fileID: 0}
 --- !u!114 &114177123309832314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -533,9 +534,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bc4bdb1747fa446a47bffeb5ed3ac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MAX_CAMERA_DISTANCE: 10
+  COLLISION_CUSHION: 3.41
   underwaterLevel: 0.35
   underwaterColor: {r: 0.13333334, g: 0.30980393, b: 0.3882353, a: 0.7}
   underwaterDensity: 0.1
+  target: {fileID: 1441822690382728}
   sky: {fileID: 2100000, guid: a2126534b3a11b34e977105bd9e3cc03, type: 2}
 --- !u!114 &114524994447563040
 MonoBehaviour:
