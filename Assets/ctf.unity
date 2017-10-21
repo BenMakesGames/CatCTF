@@ -2814,6 +2814,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3157dd4be80b2f449888651d5a344a3d, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &493275942 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 122200, guid: 3157dd4be80b2f449888651d5a344a3d, type: 2}
+  m_PrefabInternal: {fileID: 493275941}
+--- !u!64 &493275943
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 493275942}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 06be398b1a54e6f4e9d7e081bd79e6d3, type: 3}
 --- !u!1001 &520386816
 Prefab:
   m_ObjectHideFlags: 0
@@ -8906,6 +8924,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3157dd4be80b2f449888651d5a344a3d, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1629678594 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 122200, guid: 3157dd4be80b2f449888651d5a344a3d, type: 2}
+  m_PrefabInternal: {fileID: 1629678593}
+--- !u!64 &1629678595
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1629678594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 06be398b1a54e6f4e9d7e081bd79e6d3, type: 3}
 --- !u!1001 &1634717995
 Prefab:
   m_ObjectHideFlags: 0
@@ -11619,6 +11655,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3157dd4be80b2f449888651d5a344a3d, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2073223962 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 122200, guid: 3157dd4be80b2f449888651d5a344a3d, type: 2}
+  m_PrefabInternal: {fileID: 2073223961}
+--- !u!64 &2073223963
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2073223962}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 06be398b1a54e6f4e9d7e081bd79e6d3, type: 3}
 --- !u!1001 &2080324861
 Prefab:
   m_ObjectHideFlags: 0
