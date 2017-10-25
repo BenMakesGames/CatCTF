@@ -74,6 +74,9 @@ public class PlayerController : MonoBehaviour {
 
         motion *= walkSpeed;
 
+        if (Input.GetButton("Sneak"))
+            motion /= 2;
+
         animator.SetFloat("MovementSpeed", motion.magnitude);
 
         motor.Move(motion);
