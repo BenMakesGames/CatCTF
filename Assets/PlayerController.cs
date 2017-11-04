@@ -80,16 +80,5 @@ public class PlayerController : MonoBehaviour {
         animator.SetFloat("MovementSpeed", motion.magnitude);
 
         motor.Move(motion);
-
-        // jetpack
-
-        Vector3 jetPackThrust = Vector3.zero;
-
-        if(Input.GetButton("Jump"))
-        {
-            jetPackThrust = Vector3.up * thrusterForce;
-        }
-
-        motor.JetPack(jetPackThrust);
     }
 }

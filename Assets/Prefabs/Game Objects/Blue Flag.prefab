@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 23384573059519972}
   m_Layer: 0
   m_Name: Blue Flag
-  m_TagString: Untagged
+  m_TagString: Does Not Block Camera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -217,7 +217,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1853264248273690}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 130.42053, y: 1.4814138, z: -37.498047}
+  m_LocalPosition: {x: 130.42053, y: 2.8, z: -37.498047}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 4685616286564246}
@@ -440,6 +440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Team: 1
   Bearer: {fileID: 0}
+  IsGoingHome: 0
 --- !u!136 &136782522614226484
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -497,7 +498,7 @@ SkinnedMeshRenderer:
   m_RootBone: {fileID: 0}
   m_AABB:
     m_Center: {x: 0.984787, y: -0.015975952, z: 1.0185281}
-    m_Extent: {x: 0.39001465, y: 0.3404061, z: 0.5685066}
+    m_Extent: {x: 0.39001465, y: 0.3404061, z: 0.5685068}
   m_DirtyAABB: 0
 --- !u!137 &137388621579368486
 SkinnedMeshRenderer:
@@ -543,7 +544,7 @@ SkinnedMeshRenderer:
   m_RootBone: {fileID: 0}
   m_AABB:
     m_Center: {x: 0.98477936, y: -0.01597786, z: 1.0185282}
-    m_Extent: {x: 0.39001465, y: 0.3404061, z: 0.5685066}
+    m_Extent: {x: 0.39001465, y: 0.3404061, z: 0.5685068}
   m_DirtyAABB: 0
 --- !u!183 &183313051213717680
 Cloth:

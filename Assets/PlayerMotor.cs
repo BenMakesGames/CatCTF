@@ -32,12 +32,7 @@ public class PlayerMotor : MonoBehaviour
     {
         this.rotation = rotation;
     }
-
-    public void JetPack(Vector3 thrust)
-    {
-        jetPack = thrust;
-    }
-
+    
     void FixedUpdate()
     {
         PerformMovement();
@@ -49,25 +44,6 @@ public class PlayerMotor : MonoBehaviour
         if(velocity != Vector3.zero)
         {
             rigidBody.MovePosition(rigidBody.position + velocity * Time.fixedDeltaTime);
-        }
-
-        if(jetPack != Vector3.zero)
-        {
-            joint.yDrive = new JointDrive()
-            {
-                positionSpring = jointSpring,
-                maximumForce = 0,
-            };
-
-            rigidBody.AddForce(jetPack * Time.fixedDeltaTime, ForceMode.Acceleration);
-        }
-        else
-        {
-            joint.yDrive = new JointDrive()
-            {
-                positionSpring = jointSpring,
-                maximumForce = jointMaxForce,
-            };
         }
     }
 

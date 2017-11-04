@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 23893127024843616}
   m_Layer: 0
   m_Name: Red Flag
-  m_TagString: Untagged
+  m_TagString: Does Not Block Camera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,7 +165,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1052041835498110}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -82.22276, y: 1.4814138, z: 29.997498}
+  m_LocalPosition: {x: -92.6, y: 1.4814138, z: -74.7}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 4701458803117352}
@@ -497,7 +497,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 0.9847717, y: -0.015960693, z: 1.018527}
+    m_Center: {x: 0.9847832, y: -0.015972137, z: 1.0185282}
     m_Extent: {x: 0.39001465, y: 0.34040862, z: 0.5685068}
   m_DirtyAABB: 0
 --- !u!137 &137754939639016956
@@ -543,8 +543,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: 0.9847832, y: -0.015974045, z: 1.018528}
-    m_Extent: {x: 0.39001465, y: 0.3404061, z: 0.5685066}
+    m_Center: {x: 0.9847832, y: -0.015972137, z: 1.0185282}
+    m_Extent: {x: 0.39001465, y: 0.34040862, z: 0.5685068}
   m_DirtyAABB: 0
 --- !u!183 &183242211039143704
 Cloth:
