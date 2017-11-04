@@ -9,7 +9,6 @@ public class PlayerMotor : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
     private Vector3 rotation = Vector3.zero;
     private Vector3 look = Vector3.zero;
-    private Vector3 jetPack = Vector3.zero;
 
     private Rigidbody rigidBody;
     private ConfigurableJoint joint;
@@ -45,6 +44,12 @@ public class PlayerMotor : MonoBehaviour
         {
             rigidBody.MovePosition(rigidBody.position + velocity * Time.fixedDeltaTime);
         }
+
+        joint.yDrive = new JointDrive()
+        {
+            positionSpring = jointSpring,
+            maximumForce = jointMaxForce,
+        };
     }
 
     private void PerformRotation()

@@ -5,6 +5,6 @@ using System.Text;
 
 public enum Team
 {
-    Red,
-    Blue
+    Red, // red team's side is at X <= 0
+    Blue // blue team's side is at X > 0
 }

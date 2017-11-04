@@ -6,6 +6,7 @@ using UnityEngine;
 public class FloatInWater : MonoBehaviour {
 
     public float waterLevel = 0.35f;
+    public float floatForce = 15f;
 
     private Rigidbody body;
 
@@ -18,7 +19,7 @@ public class FloatInWater : MonoBehaviour {
     {
         if(transform.position.y < waterLevel)
         {
-            body.AddForce(Vector3.up, ForceMode.Force);
+            body.AddForce(Vector3.up * floatForce * (waterLevel - transform.position.y), ForceMode.Force);
         }
     }
 }

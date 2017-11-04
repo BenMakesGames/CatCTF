@@ -81,4 +81,24 @@ public class PlayerController : MonoBehaviour {
 
         motor.Move(motion);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
+
+        // if you collided with an enemy
+        if(pc != null && pc.Team != Team)
+        {
+            // if you're on red team, and in blue team's territory
+            if(Team == Team.Red && transform.position.x > 0)
+            {
+
+            }
+            // if you're on blue team, and in red team's territory
+            else if(Team == Team.Blue && transform.position.x <= 0)
+            {
+
+            }
+        }
+    }
 }
