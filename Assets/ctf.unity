@@ -2256,6 +2256,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 1173646812424044, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
+      propertyPath: m_TagString
+      value: Does Not Block Camera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
   m_IsPrefabParent: 0
@@ -2477,6 +2481,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 949d78041494b49429a08e8397857549, type: 2}
+    - target: {fileID: 1173646812424044, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
+      propertyPath: m_TagString
+      value: Does Not Block Camera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
   m_IsPrefabParent: 0
@@ -3035,6 +3043,10 @@ Prefab:
     - target: {fileID: 1173646812424044, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
       propertyPath: m_Name
       value: Crate (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173646812424044, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
+      propertyPath: m_TagString
+      value: Does Not Block Camera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
@@ -6944,6 +6956,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -27.54
       objectReference: {fileID: 0}
+    - target: {fileID: 1173646812424044, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
+      propertyPath: m_TagString
+      value: Does Not Block Camera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
   m_IsPrefabParent: 0
@@ -7703,6 +7719,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -6.8
       objectReference: {fileID: 0}
+    - target: {fileID: 1173646812424044, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
+      propertyPath: m_TagString
+      value: Does Not Block Camera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
   m_IsPrefabParent: 0
@@ -7914,6 +7934,10 @@ Prefab:
     - target: {fileID: 1173646812424044, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
       propertyPath: m_Name
       value: Crate (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173646812424044, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
+      propertyPath: m_TagString
+      value: Does Not Block Camera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
@@ -9037,6 +9061,10 @@ Prefab:
       propertyPath: m_Name
       value: Crate (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1173646812424044, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
+      propertyPath: m_TagString
+      value: Does Not Block Camera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
   m_IsPrefabParent: 0
@@ -9539,6 +9567,10 @@ Prefab:
     - target: {fileID: 4809527965793116, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173646812424044, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
+      propertyPath: m_TagString
+      value: Does Not Block Camera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b572fda3b02e6a0448e6e478cc54018f, type: 2}
